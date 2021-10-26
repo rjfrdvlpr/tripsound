@@ -1,0 +1,63 @@
+﻿@page
+@model IndexModel
+
+<!-- Google Font: Source Sans Pro -->
+<!-- Google Font: Source Sans Pro -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+<!-- Font Awesome Icons -->
+<link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+<!-- IonIcons -->
+<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+<!-- Theme style -->
+<link rel="stylesheet" href="dist/css/adminlte.min.css">
+
+
+<body class="hold-transition login-page">
+    <div class="login-box">
+        <!-- /.login-logo -->
+        <div class="card card-outline card-dark">
+
+            <div class="card-header text-center">
+                <img src="/img/logo.jpg" style="height:90px" width="auto">
+
+            </div>
+
+            <div class="card-body">
+                <p class="login-box-msg">TRIPSOUND</p>
+
+                <form method="post">
+                    <div class="input-group mb-3">
+                        <input @*asp-for="usuario"*@ class="form-control" placeholder="Usuario">
+                        <div class="input-group-append">
+                            <div class="input-group-text">
+                                <span class="fas fa-envelope"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="input-group mb-3">
+                        <input @*asp-for="contra"*@ type="password" class="form-control" placeholder="Contraseña">
+                        <div class="input-group-append">
+                            <div class="input-group-text">
+                                <span class="fas fa-lock"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <button type="submit" class="btn btn-outline-dark btn-block">Ingresar</button>
+                    </div>
+                </form>
+
+
+            </div>
+            <!-- /.card-body -->
+        </div>
+        <!-- /.card -->
+    </div>
+    <!-- /.login-box -->
+    <!-- jQuery -->
+    <script src="../../plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="../../dist/js/adminlte.min.js"></script>
+</body>
