@@ -10,7 +10,7 @@ namespace WebTripsound.Model
 {
     public class InventarioDataAcces
     {
-        string connectionString = ";";
+        string connectionString = "data source = DESKTOP - 631U6UP; database=TRIPSOUND; integrated security = true";
 
         public async Task<List<Inventario>> GetAllInventario()
         {
@@ -64,6 +64,41 @@ namespace WebTripsound.Model
                 con.Close();
             }
         }
+
+        public async Task<List<Inventario>> GetInventario(int id)
+        {
+            List<Inventario> lstemployee = new List<Inventario>();
+
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                SqlCommand cmd = new SqlCommand("TRIPSOUND_BUSCARINVENTARIO", con);
+                cmd.CommandType = CommandType.StoredProcedure;
+                SqlParameter oidParameter =
+                 cmd.Parameters.Add(new SqlParameter("@id",
+                     SqlDbType.Int));
+                oidParameter.Value = id;
+                con.Open();
+                SqlDataReader rdr = cmd.ExecuteReader();
+
+                while (rdr.Read())
+                {
+                    Inventario employee = new Inventario();
+                    employee.id = Convert.ToInt32(rdr["id"].ToString());
+                    employee.Nombre = rdr["nombre"].ToString();
+                    employee.Marca = rdr["marca"].ToString();
+
+                    employee.cantidad = Convert.ToInt32(rdr["cantidad"].ToString());
+
+
+
+                    lstemployee.Add(employee);
+                }
+                con.Close();
+            }
+
+
+            return lstemployee;
+        }
     }
 
     public class Inventario
@@ -74,13 +109,13 @@ namespace WebTripsound.Model
         [Required(ErrorMessage = "Este campo es obligatorio")]
         [MinLength(3, ErrorMessage = "Minimo 3 letras")]
         [MaxLength(50, ErrorMessage = "Max 50 letras")]
-        [RegularExpression(@"/^[a-zA-ZÀ-ÿ\u00f1\u00d1]+(\s*[a-zA-ZÀ-ÿ\u00f1\u00d1]*)*[a-zA-ZÀ-ÿ\u00f1\u00d1]+$/g", ErrorMessage = "Solo letras")]
+        [RegularExpression(@"^[a-zA-Z ]+$", ErrorMessage = "Solo letras")]
         public string Nombre { get; set; }
 
         [Required(ErrorMessage = "Este campo es obligatorio")]
         [MinLength(3, ErrorMessage = "Minimo 3 letras")]
         [MaxLength(50, ErrorMessage = "Max 50 letras")]
-        [RegularExpression(@"/^[a-zA-ZÀ-ÿ\u00f1\u00d1]+(\s*[a-zA-ZÀ-ÿ\u00f1\u00d1]*)*[a-zA-ZÀ-ÿ\u00f1\u00d1]+$/g", ErrorMessage = "Solo letras")]
+        [RegularExpression(@"^[a-zA-Z ]+$", ErrorMessage = "Solo letras")]
         public string Marca { get; set; }
 
         [Required(ErrorMessage = "Este campo es obligatorio")]

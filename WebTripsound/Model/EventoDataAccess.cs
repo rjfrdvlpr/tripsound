@@ -9,7 +9,7 @@ namespace WebTripsound.Model
 {
     public class EventoDataAccess
     {
-        string connectionString = "";
+        string connectionString = "data source = DESKTOP - 631U6UP; database=TRIPSOUND; integrated security = true";
 
 
         public void AddCliente(Evento dato)

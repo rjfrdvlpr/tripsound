@@ -59,3 +59,123 @@
 /home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/VSTS.TRIPSOUNDTESIS/WebTripsound/obj/Debug/net5.0/ref/WebTripsound.dll
 /home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/VSTS.TRIPSOUNDTESIS/WebTripsound/obj/Debug/net5.0/WebTripsound.pdb
 /home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/VSTS.TRIPSOUNDTESIS/WebTripsound/obj/Debug/net5.0/WebTripsound.genruntimeconfig.cache
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/bin/Debug/net5.0/appsettings.Development.json
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/bin/Debug/net5.0/appsettings.json
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/bin/Debug/net5.0/WebTripsound
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/bin/Debug/net5.0/WebTripsound.deps.json
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/bin/Debug/net5.0/WebTripsound.runtimeconfig.json
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/bin/Debug/net5.0/WebTripsound.runtimeconfig.dev.json
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/bin/Debug/net5.0/WebTripsound.dll
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/bin/Debug/net5.0/ref/WebTripsound.dll
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/bin/Debug/net5.0/WebTripsound.pdb
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/bin/Debug/net5.0/WebTripsound.Views.dll
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/bin/Debug/net5.0/WebTripsound.Views.pdb
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/bin/Debug/net5.0/Microsoft.AspNetCore.Server.Kestrel.Https.dll
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/bin/Debug/net5.0/Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/bin/Debug/net5.0/Newtonsoft.Json.dll
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/bin/Debug/net5.0/System.Data.SqlClient.dll
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/bin/Debug/net5.0/runtimes/win-x64/nativeassets/netcoreapp2.2/aspnetcorev2_inprocess.dll
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/bin/Debug/net5.0/runtimes/win-x86/nativeassets/netcoreapp2.2/aspnetcorev2_inprocess.dll
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/bin/Debug/net5.0/runtimes/win-arm64/native/sni.dll
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/bin/Debug/net5.0/runtimes/win-x64/native/sni.dll
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/bin/Debug/net5.0/runtimes/win-x86/native/sni.dll
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/bin/Debug/net5.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/bin/Debug/net5.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/obj/Debug/net5.0/WebTripsound.csproj.AssemblyReference.cache
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/obj/Debug/net5.0/WebTripsound.GeneratedMSBuildEditorConfig.editorconfig
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/obj/Debug/net5.0/WebTripsound.AssemblyInfoInputs.cache
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/obj/Debug/net5.0/WebTripsound.AssemblyInfo.cs
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/obj/Debug/net5.0/WebTripsound.csproj.CoreCompileInputs.cache
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/obj/Debug/net5.0/WebTripsound.MvcApplicationPartsAssemblyInfo.cache
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/obj/Debug/net5.0/WebTripsound.RazorAssemblyInfo.cache
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/obj/Debug/net5.0/WebTripsound.RazorAssemblyInfo.cs
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/obj/Debug/net5.0/staticwebassets/WebTripsound.StaticWebAssets.Manifest.cache
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/obj/Debug/net5.0/staticwebassets/WebTripsound.StaticWebAssets.xml
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/obj/Debug/net5.0/scopedcss/bundle/WebTripsound.styles.css
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/obj/Debug/net5.0/WebTripsound.TagHelpers.input.cache
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/obj/Debug/net5.0/WebTripsound.TagHelpers.output.cache
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/obj/Debug/net5.0/WebTripsound.RazorCoreGenerate.cache
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/obj/Debug/net5.0/Razor/Pages/adminv2.cshtml.g.cs
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/obj/Debug/net5.0/Razor/Pages/Clientes/AgregarCliente.cshtml.g.cs
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/obj/Debug/net5.0/Razor/Pages/Clientes/ListCliente.cshtml.g.cs
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/obj/Debug/net5.0/Razor/Pages/Contrato/ListContrato.cshtml.g.cs
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/obj/Debug/net5.0/Razor/Pages/Contrato/RegistrarContrato.cshtml.g.cs
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/obj/Debug/net5.0/Razor/Pages/Contrato/SeleccionarCliente.cshtml.g.cs
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/obj/Debug/net5.0/Razor/Pages/Error.cshtml.g.cs
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/obj/Debug/net5.0/Razor/Pages/Index.cshtml.g.cs
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/obj/Debug/net5.0/Razor/Pages/Inventario/Agregar.cshtml.g.cs
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/obj/Debug/net5.0/Razor/Pages/Inventario/ListInventario.cshtml.g.cs
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/obj/Debug/net5.0/Razor/Pages/Personal/AgregarPersonal.cshtml.g.cs
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/obj/Debug/net5.0/Razor/Pages/Personal/ListPersonal.cshtml.g.cs
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/obj/Debug/net5.0/Razor/Pages/Privacy.cshtml.g.cs
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/obj/Debug/net5.0/Razor/Pages/Shared/_Layout.cshtml.g.cs
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/obj/Debug/net5.0/Razor/Pages/Shared/_ValidationScriptsPartial.cshtml.g.cs
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/obj/Debug/net5.0/Razor/Pages/_ViewImports.cshtml.g.cs
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/obj/Debug/net5.0/Razor/Pages/_ViewStart.cshtml.g.cs
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/obj/Debug/net5.0/WebTripsound.RazorTargetAssemblyInfo.cache
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/obj/Debug/net5.0/WebTripsound.RazorTargetAssemblyInfo.cs
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/obj/Debug/net5.0/WebTripsound.Views.pdb
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/obj/Debug/net5.0/WebTripsound.csproj.CopyComplete
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/obj/Debug/net5.0/WebTripsound.dll
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/obj/Debug/net5.0/ref/WebTripsound.dll
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/obj/Debug/net5.0/WebTripsound.pdb
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/obj/Debug/net5.0/WebTripsound.genruntimeconfig.cache
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\bin\Debug\net5.0\appsettings.json
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\bin\Debug\net5.0\WebTripsound.exe
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\bin\Debug\net5.0\WebTripsound.deps.json
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\bin\Debug\net5.0\WebTripsound.runtimeconfig.json
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\bin\Debug\net5.0\WebTripsound.runtimeconfig.dev.json
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\bin\Debug\net5.0\WebTripsound.dll
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\bin\Debug\net5.0\ref\WebTripsound.dll
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\bin\Debug\net5.0\WebTripsound.pdb
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\bin\Debug\net5.0\WebTripsound.Views.dll
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\bin\Debug\net5.0\WebTripsound.Views.pdb
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\bin\Debug\net5.0\Microsoft.AspNetCore.Server.Kestrel.Https.dll
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\bin\Debug\net5.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\obj\Debug\net5.0\WebTripsound.csproj.AssemblyReference.cache
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\obj\Debug\net5.0\WebTripsound.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\obj\Debug\net5.0\WebTripsound.AssemblyInfoInputs.cache
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\obj\Debug\net5.0\WebTripsound.AssemblyInfo.cs
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\obj\Debug\net5.0\WebTripsound.csproj.CoreCompileInputs.cache
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\obj\Debug\net5.0\WebTripsound.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\obj\Debug\net5.0\WebTripsound.RazorAssemblyInfo.cache
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\obj\Debug\net5.0\WebTripsound.RazorAssemblyInfo.cs
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\obj\Debug\net5.0\staticwebassets\WebTripsound.StaticWebAssets.Manifest.cache
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\obj\Debug\net5.0\staticwebassets\WebTripsound.StaticWebAssets.xml
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\obj\Debug\net5.0\scopedcss\bundle\WebTripsound.styles.css
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\obj\Debug\net5.0\WebTripsound.TagHelpers.input.cache
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\obj\Debug\net5.0\WebTripsound.TagHelpers.output.cache
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\obj\Debug\net5.0\WebTripsound.RazorCoreGenerate.cache
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\obj\Debug\net5.0\Razor\Pages\adminv2.cshtml.g.cs
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\obj\Debug\net5.0\Razor\Pages\Clientes\AgregarCliente.cshtml.g.cs
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\obj\Debug\net5.0\Razor\Pages\Clientes\ListCliente.cshtml.g.cs
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\obj\Debug\net5.0\Razor\Pages\Contrato\ListContrato.cshtml.g.cs
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\obj\Debug\net5.0\Razor\Pages\Contrato\RegistrarContrato.cshtml.g.cs
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\obj\Debug\net5.0\Razor\Pages\Contrato\SeleccionarCliente.cshtml.g.cs
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\obj\Debug\net5.0\Razor\Pages\Inventario\Agregar.cshtml.g.cs
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\obj\Debug\net5.0\Razor\Pages\Inventario\ListInventario.cshtml.g.cs
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\obj\Debug\net5.0\Razor\Pages\Personal\AgregarPersonal.cshtml.g.cs
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\obj\Debug\net5.0\Razor\Pages\Personal\ListPersonal.cshtml.g.cs
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\obj\Debug\net5.0\WebTripsound.RazorTargetAssemblyInfo.cache
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\obj\Debug\net5.0\WebTripsound.RazorTargetAssemblyInfo.cs
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\obj\Debug\net5.0\WebTripsound.Views.pdb
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\obj\Debug\net5.0\WebTripsound.csproj.CopyComplete
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\obj\Debug\net5.0\WebTripsound.dll
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\obj\Debug\net5.0\ref\WebTripsound.dll
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\obj\Debug\net5.0\WebTripsound.pdb
+C:\Users\jampi\OneDrive\Escritorio\Para DEMO\tripsound\WebTripsound\obj\Debug\net5.0\WebTripsound.genruntimeconfig.cache

@@ -10,7 +10,7 @@ namespace WebTripsound.Model
 {
     public class PersonalDataAccess
     {
-        string connectionString = "";
+        string connectionString = "data source = DESKTOP - 631U6UP; database=TRIPSOUND; integrated security = true";
 
         public async Task<List<Personal>> GetAllPersonal()
         {

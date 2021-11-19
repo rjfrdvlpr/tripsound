@@ -30,22 +30,13 @@ namespace WebTripsound.Pages.Clientes
             registro.contrasenia = "";
             registro.idtipousu = "1";
             Registrar.AddCliente(registro);
+            
 
-
-            string emailorigen = "felix.aparcanap@gmail.com";
+            string emailorigen = "jampierts@gmail.com";
             string emaildestino = registro.correo;
-            string con = "";
+            string con = "data source=DESKTOP-631U6UP; database=TRIPSOUND; integrated security = SSPI";
 
-            MailMessage mailMessage = new MailMessage(emailorigen, emaildestino,"TRIPSOUND", "" +
-                "Hola, "+registro.nombres+" su contraseña de tripsound es felix123");
-            mailMessage.IsBodyHtml = true;
-            SmtpClient smtpClient = new SmtpClient("smtp.gmail.com");
-            smtpClient.EnableSsl = true;
-          
-            smtpClient.Credentials = new System.Net.NetworkCredential(emailorigen, con);
-            smtpClient.Send(mailMessage);
-
-            return RedirectToPage("ListContrato");
+            return RedirectToPage("ListCliente");
 
 
         }

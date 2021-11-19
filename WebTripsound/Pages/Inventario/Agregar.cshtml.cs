@@ -27,7 +27,7 @@ namespace WebTripsound.Pages.Inventario
             }
            
             Registrar.AddInventario(registro);
-            return RedirectToPage("Listinventario");
+            return RedirectToPage("ListInventario");
 
 
         }
