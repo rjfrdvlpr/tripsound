@@ -2394,34 +2394,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jampi\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/home/frdvlpr/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jampi\\OneDrive\\Escritorio\\Para DEMO\\tripsound\\WebTripsound\\WebTripsound.csproj",
+      "projectUniqueName": "/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/WebTripsound.csproj",
       "projectName": "WebTripsound",
-      "projectPath": "C:\\Users\\jampi\\OneDrive\\Escritorio\\Para DEMO\\tripsound\\WebTripsound\\WebTripsound.csproj",
-      "packagesPath": "C:\\Users\\jampi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jampi\\OneDrive\\Escritorio\\Para DEMO\\tripsound\\WebTripsound\\obj\\",
+      "projectPath": "/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/WebTripsound.csproj",
+      "packagesPath": "/home/frdvlpr/.nuget/packages/",
+      "outputPath": "/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\jampi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/home/frdvlpr/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2467,7 +2457,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
       }
     }
   }

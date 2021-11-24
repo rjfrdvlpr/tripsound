@@ -476,6 +476,18 @@
           "Microsoft.AspNetCore.Hosting.Abstractions": "2.2.0",
           "System.IO.Pipelines": "4.5.2",
           "System.Security.Principal.Windows": "4.7.0"
+        },
+        "runtimeTargets": {
+          "runtimes/win-x64/nativeassets/netcoreapp2.2/aspnetcorev2_inprocess.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/nativeassets/netcoreapp2.2/aspnetcorev2_inprocess.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
         }
       },
       "Microsoft.AspNetCore.Server.IISIntegration/2.2.0": {
@@ -722,7 +734,7 @@
           "runtimes/win-arm64/native/sni.dll": {
             "rid": "win-arm64",
             "assetType": "native",
-            "fileVersion": "4.6.25512.1"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -731,7 +743,7 @@
           "runtimes/win-x64/native/sni.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "4.6.25512.1"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -740,7 +752,7 @@
           "runtimes/win-x86/native/sni.dll": {
             "rid": "win-x86",
             "assetType": "native",
-            "fileVersion": "4.6.25512.1"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
