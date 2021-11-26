@@ -33,6 +33,7 @@ namespace WebTripsound.Model
                     employee.Cel = (rdr["celular"].ToString());
                     employee.foto = (rdr["foto"].ToString());
                     employee.Correo = (rdr["correo"].ToString());
+                    employee.Dni = (rdr["dni"].ToString());
 
                     lstemployee.Add(employee);
                 }
