@@ -6,11 +6,11 @@
     <title>@ViewData["Title"] - WebTripsound</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+
 </head>
 <body>
-
- 
-
+   
     @RenderBody()
 
     @*<script src="~/lib/jquery/dist/jquery.min.js"></script>
@@ -18,5 +18,7 @@
     <script src="~/js/site.js" asp-append-version="true"></script>*@
 
     @await RenderSectionAsync("Scripts", required: false)
+
+    
 </body>
 </html>

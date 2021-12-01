@@ -10,7 +10,7 @@ namespace WebTripsound.Model
 {
     public class ClienteDataAcces
     {
-        string connectionString = "data source=DESKTOP-631U6UP; database=TRIPSOUND; integrated security = true";
+        string connectionString = "data source=localhost; database=TRIPSOUND; user id=SA; password=SQL-2021";
 
 
         public async Task<List<Cliente>> GetAllUsuario()

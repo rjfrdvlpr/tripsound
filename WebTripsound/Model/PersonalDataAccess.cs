@@ -10,7 +10,7 @@ namespace WebTripsound.Model
 {
     public class PersonalDataAccess
     {
-        string connectionString = "data source = DESKTOP - 631U6UP; database=TRIPSOUND; integrated security = true";
+        string connectionString = "data source=localhost; database=TRIPSOUND; user id=SA; password=SQL-2021";
 
         public async Task<List<Personal>> GetAllPersonal()
         {
@@ -31,7 +31,7 @@ namespace WebTripsound.Model
                     employee.Nombre = rdr["nombre"].ToString();
                     employee.Apellidos = rdr["apellidos"].ToString();
                     employee.Cel = (rdr["celular"].ToString());
-                    employee.foto = (rdr["foto"].ToString());
+                    //employee.foto = (rdr["foto"].ToString());
                     employee.Correo = (rdr["correo"].ToString());
                     employee.Dni = (rdr["dni"].ToString());
 
@@ -59,7 +59,7 @@ namespace WebTripsound.Model
                 cmd.Parameters.AddWithValue("@dni", dato.Dni);
                 cmd.Parameters.AddWithValue("@cel", dato.Cel);
                 cmd.Parameters.AddWithValue("@correo", dato.Correo);
-                cmd.Parameters.AddWithValue("@foto", dato.foto);
+                //cmd.Parameters.AddWithValue("@foto", dato.foto);
 
                 con.Open();
                 cmd.ExecuteNonQuery();
@@ -102,6 +102,6 @@ namespace WebTripsound.Model
         [EmailAddress(ErrorMessage = "Debe de tener un formato correcto el correo")]
         public string Correo { get; set; }
         public int Tipo { get; set; }
-        public string foto { get; set; }
+        //public string foto { get; set; }
     }
 }
