@@ -1,5 +1,5 @@
 ﻿@page
-@model WebTripsound.Pages.Personal.AgregarPersonalModel
+@model WebTripsound.Pages.Usuario.ListUsuariolModel
 @{
 }
 <!-- Google Font: Source Sans Pro -->
@@ -120,8 +120,8 @@
                         </li>
 
 
-                        <li class="nav-item menu-open">
-                            <a href="#" class="nav-link active" style="background-color:lightslategray">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
                                 <i class="nav-icon fas fa-sticky-note"></i>
                                 <p>
                                     Gestionar Personal
@@ -148,7 +148,7 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="~/Personal/AgregarPersonal" class="nav-link active">
+                                    <a href="~/Personal/AgregarPersonal" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Registrar Personal</p>
                                     </a>
@@ -177,8 +177,8 @@
                             </ul>
                         </li>
 
-                        <li class="nav-item  ">
-                            <a href="#" class="nav-link " >
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" >
                                 <i class="nav-icon fas fa-user-edit"></i>
                                 <p>
                                     Gestionar clientes
@@ -229,8 +229,8 @@
                             </ul>
                         </li>
 
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
+                        <li class="nav-item menu-open">
+                            <a href="#" class="nav-link active" style="background-color:lightslategray">
                                 <i class="nav-icon fas fa-sticky-note"></i>
                                 <p>
                                     Gestionar Usuarios
@@ -245,7 +245,7 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="~/Usuario/ListUsuario" class="nav-link">
+                                    <a href="~/Usuario/ListUsuario" class="nav-link active">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Usuarios</p>
                                     </a>
@@ -254,6 +254,7 @@
 
                             </ul>
                         </li>
+
 
                     </ul>
                 </nav>
@@ -269,7 +270,7 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">Personal</h1>
+                            <h1 class="m-0">Usuarios Personal</h1>
                         </div><!-- /.col -->
 
                     </div><!-- /.row -->
@@ -280,113 +281,60 @@
             <section class="content">
                 <div class="container-fluid">
                     <div class="row">
-                        <!-- left column -->
-                        <div class="col-md-12">
-
-
-
-                            <!-- Horizontal Form -->
-                            <div class="card  card-dark">
+                        <div class="col-12">
+                            <div class="card card-gray-dark">
                                 <div class="card-header">
-                                    <h3 class="card-title">Registrar Personal</h3>
+                                    <h3 class="card-title">Listado Usuarios</h3>
                                 </div>
                                 <!-- /.card-header -->
-                                <!-- form start -->
-                                <form class="form-horizontal" method="post">
+                                <div class="card-body">
+                                    <table id="example2" class="table table-bordered table-hover">
+                                        <thead>
+                                            <tr>
+                                                <!--<th>Foto</th>-->
+                                                <th>DNI</th>
+                                                <th>Nombre</th>
+                                                <th>Apellidos</th>
+                                                <th>Celular</th>
+                                                <th>Correo</th>  
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach (var item in Model.pers)
+                                            {
+                                            <tr>
+
+                                                
+                                                <td> @Html.DisplayFor(modelItem => item.Dni)</td>
+                                                <td>  @Html.DisplayFor(modelItem => item.Nombre)</td>
+                                                <td>
+                                                    @Html.DisplayFor(modelItem => item.Apellidos)
+                                                </td>
+                                                <td>@Html.DisplayFor(modelItem => item.Cel)</td>
+                                                <td>@Html.DisplayFor(modelItem => item.Correo)</td>
 
 
-                                    <div class="card-body">
+                                                
+                                                @*<td>
 
-                                        <div class="form-group row">
-                                            <label class="col-sm-2 col-form-label">Nombre :</label>
-                                            <div class="col-sm-10">
-                                                <input asp-for="RegistrarPersonal.Nombre" class="form-control" placeholder="Nombre">
-                                                <span asp-validation-for="RegistrarPersonal.Nombre" style="color:darkred"></span>
-                                            </div>
-                                        </div>
+            <a asp-page="./elimINarusu" asp-route-id=" @item.id">
+                <label> Eliminar</label>
+            </a>
 
+        </td>*@
+                                            </tr>
+                                            }
+                                        </tbody>
 
-
-
-
-
-                                        <div class="form-group row">
-                                            <label class="col-sm-2 col-form-label">Apellidos :</label>
-                                            <div class="col-sm-10">
-                                                <input asp-for="RegistrarPersonal.Apellidos" class="form-control" placeholder="Apellidos">
-                                                <span asp-validation-for="RegistrarPersonal.Apellidos" style="color:darkred"></span>
-                                            </div>
-                                        </div>
-
-
-
-
-
-                                        <div class="form-group row">
-                                            <label class="col-sm-2 col-form-label">Fecha de Nacimiento :</label>
-                                            <div class="col-sm-10">
-                                                <input type="date" asp-for="RegistrarPersonal.Fecha" class="form-control">
-                                                <span asp-validation-for="RegistrarPersonal.Fecha" style="color:darkred"></span>
-
-                                            </div>
-                                        </div>
-
-
-
-
-
-                                        <div class="form-group row">
-                                            <label class="col-sm-2 col-form-label">DNI :</label>
-                                            <div class="col-sm-10">
-                                                <input asp-for="RegistrarPersonal.Dni" class="form-control" placeholder="DNI">
-                                                <span asp-validation-for="RegistrarPersonal.Dni" style="color:darkred"></span>
-                                            </div>
-                                        </div>
-
-
-
-                                       
-
-
-
-                                        <div class="form-group row">
-                                            <label class="col-sm-2 col-form-label">Correo :</label>
-                                            <div class="col-sm-10">
-                                                <input type="email" asp-for="RegistrarPersonal.Correo" class="form-control" placeholder="Correo">
-                                                <span asp-validation-for="RegistrarPersonal.Correo" style="color:darkred"></span>
-                                            </div>
-                                        </div>
-
-
-
-                                        <div class="form-group row">
-                                            <label class="col-sm-2 col-form-label">Celular :</label>
-                                            <div class="col-sm-10">
-                                                <input asp-for="RegistrarPersonal.Cel" class="form-control" placeholder="Celular">
-                                                <span asp-validation-for="RegistrarPersonal.Cel" style="color:darkred"></span>
-                                            </div>
-                                        </div>
-
-                                        
-
-                                    </div>
-
-
-                                    <!-- /.card-body -->
-                                    <div class="card-footer">
-                                        <button type="submit" class="btn btn-success">Registrar</button>
-
-                                    </div>
-                                    <!-- /.card-footer -->
-                                </form>
+                                    </table>
+                                </div>
+                                <!-- /.card-body -->
                             </div>
-                            <!-- /.card -->
-
                         </div>
-
                     </div>
-                    <!-- /.row -->
-                </div><!-- /.container-fluid -->
+                </div>
+                <!-- /.card -->
+
             </section>
             <!-- /.content -->
         </div>

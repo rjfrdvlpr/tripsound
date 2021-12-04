@@ -15624,6 +15624,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/Pages/Usuario/AgregarUsuario.cshtml",
+      "TargetPath": "Pages\\Usuario\\AgregarUsuario.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/Pages/Privacy.cshtml",
       "TargetPath": "Pages\\Privacy.cshtml",
       "FileKind": "mvc"
@@ -15646,6 +15651,11 @@
     {
       "FilePath": "/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/Pages/Clientes/ListCliente.cshtml",
       "TargetPath": "Pages\\Clientes\\ListCliente.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/Pages/Personal/AgregarDJ.cshtml",
+      "TargetPath": "Pages\\Personal\\AgregarDJ.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15684,6 +15694,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/Pages/Personal/AgregarAdmin.cshtml",
+      "TargetPath": "Pages\\Personal\\AgregarAdmin.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/Pages/_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -15691,6 +15706,11 @@
     {
       "FilePath": "/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/Pages/Index.cshtml",
       "TargetPath": "Pages\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/Pages/Usuario/ListUsuario.cshtml",
+      "TargetPath": "Pages\\Usuario\\ListUsuario.cshtml",
       "FileKind": "mvc"
     },
     {

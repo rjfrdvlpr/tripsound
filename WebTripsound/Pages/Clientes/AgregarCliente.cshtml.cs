@@ -28,14 +28,11 @@ namespace WebTripsound.Pages.Clientes
             }
 
             registro.contrasenia = "";
-            registro.idtipousu = "1";
+            registro.idtipousu = "2";
             Registrar.AddCliente(registro);
             
 
-            string emailorigen = "jampierts@gmail.com";
-            string emaildestino = registro.correo;
-            string con = "data source=DESKTOP-631U6UP; database=TRIPSOUND; integrated security = SSPI";
-
+          
             return RedirectToPage("ListCliente");
 
 

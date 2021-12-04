@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace WebTripsound.Model
 {
-    public class PersonalDataAccess
+    public class UserAccess
     {
         string connectionString = "data source=localhost; database=TRIPSOUND; user id=SA; password=SQL-2021";
 
@@ -43,7 +43,7 @@ namespace WebTripsound.Model
             return lstemployee;
         }
 
-        public void AddPersonal(Personal dato)
+        public void AddPersonal(User dato)
         {
 
 
@@ -65,7 +65,7 @@ namespace WebTripsound.Model
             }
         }
 
-        public void AddAdmin(Personal dato)
+        public void AddAdmin(User dato)
         {
 
 
@@ -87,7 +87,7 @@ namespace WebTripsound.Model
             }
         }
 
-        public void AddDJ(Personal dato)
+        public void AddDJ(User dato)
         {
 
 
@@ -110,7 +110,7 @@ namespace WebTripsound.Model
         }
 
     }
-    public class Personal
+    public class User
     {
         public int id { get; set; }
 

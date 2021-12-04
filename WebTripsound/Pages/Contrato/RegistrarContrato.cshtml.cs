@@ -38,20 +38,7 @@ namespace WebTripsound.Pages.Contrato
             Registrar.AddCliente(registro);
 
 
-            string emailorigen = "felix.aparcanap@gmail.com";
-            string emaildestino = "felix.aparcanap@gmail.com";
-            string con = "";
-            string path = @"D:\contrato.pdf";
-
-            MailMessage mailMessage = new MailMessage(emailorigen, emaildestino, "TRIPSOUND", "" +
-                "Hola, FELIX se adjunta su contrato " );
-            mailMessage.Attachments.Add(new Attachment(path));
-            mailMessage.IsBodyHtml = true;
-            SmtpClient smtpClient = new SmtpClient("smtp.gmail.com");
-            smtpClient.EnableSsl = true;
-         
-            smtpClient.Credentials = new System.Net.NetworkCredential(emailorigen, con);
-            smtpClient.Send(mailMessage);
+            
 
             return RedirectToPage("Listcontrato");
         }
