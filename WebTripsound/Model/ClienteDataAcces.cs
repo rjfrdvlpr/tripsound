@@ -70,6 +70,29 @@ namespace WebTripsound.Model
             }
         }
 
+        public void AddUpCliente(Cliente dato)
+        {
+
+
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                SqlCommand cmd = new SqlCommand("TRIPSOUND_UPCLIENT", con);
+                cmd.CommandType = CommandType.StoredProcedure;
+
+                cmd.Parameters.AddWithValue("@nom", dato.nombres);
+                cmd.Parameters.AddWithValue("@apellidos", dato.apellidos);
+                cmd.Parameters.AddWithValue("@cel", dato.cel);
+                cmd.Parameters.AddWithValue("@correo", dato.correo);
+                cmd.Parameters.AddWithValue("@dni", dato.dni);
+                cmd.Parameters.AddWithValue("@id", dato.id);
+
+
+                con.Open();
+                cmd.ExecuteNonQuery();
+                con.Close();
+            }
+        }
+
 
         public async Task<List<Cliente>> GetCliente(int id)
         {
@@ -113,6 +136,9 @@ namespace WebTripsound.Model
     public class Cliente
     {
         public int id { get; set; }
+
+        [Required (ErrorMessage ="Este campo es obligatorio")]
+        public int oldid { get; set; }
 
         [Required (ErrorMessage ="Este campo es obligatorio")]
         [MinLength(3,ErrorMessage ="Minimo 3 letras")]

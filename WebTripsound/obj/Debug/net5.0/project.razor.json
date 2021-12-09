@@ -15699,6 +15699,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/Pages/Clientes/UpdateCliente.cshtml",
+      "TargetPath": "Pages\\Clientes\\UpdateCliente.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/Pages/_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"

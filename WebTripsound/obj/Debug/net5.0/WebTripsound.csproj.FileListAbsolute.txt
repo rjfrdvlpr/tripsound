@@ -183,3 +183,4 @@ C:/Users/jampi/OneDrive/Escritorio/Para DEMO/tripsound/WebTripsound/obj/Debug/ne
 /home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/obj/Debug/net5.0/Razor/Pages/Personal/AgregarDJ.cshtml.g.cs
 /home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/obj/Debug/net5.0/Razor/Pages/Usuario/AgregarUsuario.cshtml.g.cs
 /home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/obj/Debug/net5.0/Razor/Pages/Usuario/ListUsuario.cshtml.g.cs
+/home/frdvlpr/frdvlpr/URP/20212/TP1/TripSound/code/dvlp/tripsound/WebTripsound/obj/Debug/net5.0/Razor/Pages/Clientes/UpdateCliente.cshtml.g.cs

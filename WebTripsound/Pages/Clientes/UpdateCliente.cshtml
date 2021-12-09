@@ -1,5 +1,5 @@
 ﻿@page
-@model WebTripsound.Pages.Usuario.AgregarUsuarioModel
+@model WebTripsound.Pages.Clientes.UpdateClienteModel
 @{
 }
 <!-- Google Font: Source Sans Pro -->
@@ -177,8 +177,8 @@
                             </ul>
                         </li>
 
-                        <li class="nav-item  ">
-                            <a href="#" class="nav-link " >
+                        <li class="nav-item menu-open ">
+                            <a href="#" class="nav-link active" style="background-color:lightslategray">
                                 <i class="nav-icon fas fa-user-edit"></i>
                                 <p>
                                     Gestionar clientes
@@ -187,13 +187,13 @@
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="~/Clientes/ListCliente" class="nav-link">
+                                    <a href="~/Clientes/ListCliente" class="nav-link active">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Clientes</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="~/Clientes/AgregarCliente" class="nav-link">
+                                    <a href="~/Clientes/AgregarCliente" class="nav-link ">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Agregar cliente</p>
                                     </a>
@@ -229,8 +229,8 @@
                             </ul>
                         </li>
 
-                        <li class="nav-item menu-open">
-                            <a href="#" class="nav-link active" style="background-color:lightslategray">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
                                 <i class="nav-icon fas fa-sticky-note"></i>
                                 <p>
                                     Gestionar Usuarios
@@ -239,7 +239,7 @@
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="~/Usuario/AgregarUsuario" class="nav-link active">
+                                    <a href="~/Usuario/AgregarUsuario" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Agregrar Usuarios</p>
                                     </a>
@@ -255,6 +255,7 @@
                             </ul>
                         </li>
 
+
                     </ul>
                 </nav>
                 <!-- /.sidebar-menu -->
@@ -269,7 +270,7 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">Usuarios</h1>
+                            <h1 class="m-0">Clientes</h1>
                         </div><!-- /.col -->
 
                     </div><!-- /.row -->
@@ -280,15 +281,62 @@
             <section class="content">
                 <div class="container-fluid">
                     <div class="row">
-                        <!-- left column -->
-                        <div class="col-md-12">
+                        <div class="col-12">
+                            <div class="card card-gray-dark">
+                                <div class="card-header">
+                                    <h3 class="card-title">Usuarios Registrados</h3>
+                                </div>
+                                <!-- /.card-header -->
+                                <div class="card-body">
+                                    <table id="example2" class="table table-bordered table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>DNI</th>
+                                                <th>Nombres</th>
+                                                <th>Apellidos</th>
+                                                <th>Celular</th>
+                                                <th>Correo</th>
 
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach (var item in Model.usuario)
+                                            {
+                                            <tr>
 
+                                                <td> @Html.DisplayFor(modelItem => item.dni)</td>
+                                                <td> @Html.DisplayFor(modelItem => item.nombres)</td>
+                                                <td>  @Html.DisplayFor(modelItem => item.apellidos)</td>
+                                                <td> @Html.DisplayFor(modelItem => item.cel)</td>
+                                                <td> @Html.DisplayFor(modelItem => item.correo)</td>
+
+                                                <td>
+
+                                                    <a asp-page="./ListCliente">
+                                                        <label> Volver </label>
+                                                    </a>
+
+                                                </td>
+                                                <td>
+
+                                                    <a asp-page="./elimINarusu" asp-route-id=" @item.id">
+                                                        <label> Eliminar</label>
+                                                    </a>
+
+                                                </td>
+                                            </tr>
+                                            }
+                                        </tbody>
+
+                                    </table>
+                                </div>
+                                <!-- /.card-body -->
+                            </div>
 
                             <!-- Horizontal Form -->
                             <div class="card  card-dark">
                                 <div class="card-header">
-                                    <h3 class="card-title">Registrar Usuarios Personal</h3>
+                                    <h3 class="card-title">Update Clientes</h3>
                                 </div>
                                 <!-- /.card-header -->
                                 <!-- form start -->
@@ -296,32 +344,62 @@
 
 
                                     <div class="card-body">
-
+                                       
                                         <div class="form-group row">
-                                            <label class="col-sm-2 col-form-label">Correo :</label>
+                                            <label class="col-sm-2 col-form-label">Nombre :</label>
                                             <div class="col-sm-10">
-                                                <input asp-for="RegistrarUsuario.Correo" class="form-control" placeholder="Correo">
-                                                <span asp-validation-for="RegistrarUsuario.Correo" style="color:darkred"></span>
+                                                <input asp-for="UpdateCliente.nombres" class="form-control" placeholder="Nombre">
+                                                <span asp-validation-for="UpdateCliente.nombres" style="color:darkred"></span>
                                             </div>
                                         </div>
 
+
+
+
+
+
                                         <div class="form-group row">
-                                            <label class="col-sm-2 col-form-label">Contraseña :</label>
+                                            <label class="col-sm-2 col-form-label">Apellidos :</label>
                                             <div class="col-sm-10">
-                                                <input asp-for="RegistrarUsuario.Pass" type="password" class="form-control"  placeholder="Contraseña">
-                                                <span asp-validation-for="RegistrarUsuario.Pass" style="color:darkred"></span>
+                                                <input asp-for="UpdateCliente.apellidos" class="form-control" placeholder="Apellidos">
+                                                <span asp-validation-for="UpdateCliente.apellidos" style="color:darkred"></span>
                                             </div>
                                         </div>
+
 
                                         <div class="form-group row">
                                             <label class="col-sm-2 col-form-label">DNI :</label>
                                             <div class="col-sm-10">
-                                                <input asp-for="RegistrarUsuario.Dni" class="form-control" placeholder="DNI">
-                                                <span asp-validation-for="RegistrarUsuario.Dni" style="color:darkred"></span>
+                                                <input asp-for="UpdateCliente.dni" class="form-control" placeholder="DNI">
+                                                <span asp-validation-for="UpdateCliente.dni" style="color:darkred"></span>
                                             </div>
                                         </div>
 
+
+
+                                       
+
+
+
+                                        <div class="form-group row">
+                                            <label class="col-sm-2 col-form-label">Correo :</label>
+                                            <div class="col-sm-10">
+                                                <input type="email" asp-for="UpdateCliente.correo" class="form-control" placeholder="Correo">
+                                                <span asp-validation-for="UpdateCliente.correo" style="color:darkred"></span>
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="form-group row">
+                                            <label class="col-sm-2 col-form-label">Celular :</label>
+                                            <div class="col-sm-10">
+                                                <input asp-for="UpdateCliente.cel" class="form-control" placeholder="Celular">
+                                                <span asp-validation-for="UpdateCliente.cel" style="color:darkred"></span>
+                                            </div>
+                                        </div>
                                         
+                                                                               
 
                                     </div>
 
@@ -334,13 +412,12 @@
                                     <!-- /.card-footer -->
                                 </form>
                             </div>
-                            <!-- /.card -->
 
                         </div>
-
                     </div>
-                    <!-- /.row -->
-                </div><!-- /.container-fluid -->
+                </div>
+                <!-- /.card -->
+
             </section>
             <!-- /.content -->
         </div>
